@@ -1,1 +1,23 @@
 Github Repo Link : https://github.com/Codalicio/Monster_Killer_Game
+
+Project Definition :
+
+* Create a file vendor.js that contains all the DOM related definitions.
+* Also, create an app.js file that contains the logic.
+* Inside app.js, create event Handler functions like 'attackHandler' and 'strongAttackHandler' 
+to handle button clicks on 'ATTACK' and 'STRONG ATTACK' respectively.
+* Upon every click, the damage to monster and player affects the health of 
+the monster and player, whichever health reaches 0(zero) first wins, otherwise it's a draw.
+* Create a monsterAttack function that defines the logic for ATTACK and 
+STRONG ATTACK, that depend's upon the attack handlers.
+* Create a healPlayerHandler function that heals the player based on certain condition like if 
+currentPlayerHealth <= chosenMaxLife - HEAL_VALUE;, also the player take an 
+attack from the monster after every heal. And we finally increase the 
+player's health by calling increasePlayerHealth(healValue) function and 
+* Write the logic for conditional bonus life inside endRound() function 
+using if statement that calls for a bonus life only if the variable hasBonusLife 
+is true, in this scenario the currentPlayerHealth becomes stagnant when the bonus 
+life is used and also the #bonus-life element gets removed from the DOM!
+* Add reset game functionality using reset() and resetGame() functions. 
+Defined a reset() and calls the resetGame(userInput) inside it that updates the 
+monster health and player health based upon user input.
