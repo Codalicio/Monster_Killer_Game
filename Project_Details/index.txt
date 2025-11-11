@@ -25,3 +25,4 @@ monster health and player health based upon user input.
 number using parseInt(). Also check for invalid user inputs by using 
 isNaN().
 * Utilized global constants as indentifiers in conditional code.
+* Added a conditional battle log.
