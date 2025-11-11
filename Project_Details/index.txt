@@ -24,3 +24,4 @@ monster health and player health based upon user input.
 * Validated user input by using prompt() and converted user input to a 
 number using parseInt(). Also check for invalid user inputs by using 
 isNaN().
+* Utilized global constants as indentifiers in conditional code.
