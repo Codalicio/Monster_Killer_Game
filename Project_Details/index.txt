@@ -21,3 +21,6 @@ life is used and also the #bonus-life element gets removed from the DOM!
 * Add reset game functionality using reset() and resetGame() functions. 
 Defined a reset() and calls the resetGame(userInput) inside it that updates the 
 monster health and player health based upon user input.
+* Validated user input by using prompt() and converted user input to a 
+number using parseInt(). Also check for invalid user inputs by using 
+isNaN().
