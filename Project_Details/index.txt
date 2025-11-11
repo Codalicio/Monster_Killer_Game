@@ -26,3 +26,4 @@ number using parseInt(). Also check for invalid user inputs by using
 isNaN().
 * Utilized global constants as indentifiers in conditional code.
 * Added a conditional battle log.
+* Used ternary operator to provide values to constants.
